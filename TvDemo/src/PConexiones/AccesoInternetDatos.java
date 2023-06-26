@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class AccesoInternetDatos {
+public class AccesoInternetDatos implements ConexionDataSource {
     
     String nombreArchivo="src\\PConexiones\\internet.txt";
     public AccesoInternetDatos(){
